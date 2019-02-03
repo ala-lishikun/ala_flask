@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+
+{% block main %}
+    <form action="" method="POST">
+    <div class="container">
+        <div class="left_div">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                <h1 class="panel-title" >计算哪一天</h1>
+            </div>
+              <div class="panel-body">
+{#                <script>#}
+{#                window.onload = function () {#}
+{#                    var inp = document.getElementById("inp")#}
+{#                    inp.onclick = function () {#}
+{#                      var inpText = inp.value;#}
+{#                      if(inp.value < 0){#}
+{#                        alert("请输入正数");#}
+{#                        return false;#}
+{#                      }#}
+{#                    }#}
+{#                  }#}
+{#                </script>#}
+                <div class="ibox-title" style="border-color:#f4645f;padding-left:0">
+{#                    <h2>#}
+{#                        <i class="fa fa-list"></i>&nbsp;实体+事件&nbsp;&nbsp;&nbsp;#}
+{#                    </h2>#}
+                </div>
+                <table class="table" style="margin-bottom:0;">
+                    <tbody>
+                        <tr>
+                            <th style="text-align:right;width:20%;vertical-align: middle;">请输入需要计算的日期</th>
+                            <td >
+
+                               <div class="input-group">
+                                    <input type="date" name="date" id="inp" placeholder="例:2015/05/05">
+                                </div>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="text-align:right;width:20%;vertical-align: middle;">
+                            </th>
+                            <td style="text-align:left">
+                                <button class="btn btn-danger btn-lg" id="submit_btn">开始计算</button>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="clearfix"></div>
+                <h3>计算结果：您输入的日期是{{ year}}年的第{{ message }}天</h3>
+				<div class="hr-line-dashed"></div>
+                  <div class="ibox-title" style="border-color:#f4645f;padding-left:0"></div>>
+                <div class="hr-line-dashed"></div>
+                    <h3 class="text" style="color: #cd5e3c;">数据用途说明</h3>
+                <p>所有数据仅做娱乐之用，请勿用于非法用途！</p>
+              </div>
+            </div>
+        </div>
+    </div>
+    </form>
+{% endblock %}
+
+
