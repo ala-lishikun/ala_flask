@@ -56,7 +56,7 @@ def days():
         if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
             if month > 2 :
                 days += 1
-        return render_template('date.html',year = year,message = days)
+        return render_template('date.html',date=input_date,year=year,message=days)
     else:
         return render_template('date.html')
 
@@ -125,7 +125,7 @@ def life():
             print(days)
         else:
             print('出生日期有误')
-        return render_template('life.html',days=days)
+        return render_template('life.html',days=days,birthday=input_birthday)
     else:
         return render_template('life.html')
 
