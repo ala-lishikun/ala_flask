@@ -1,6 +1,6 @@
 from flask import Flask,render_template,request,session,redirect,url_for
 from datetime import datetime
-import config
+import config,math
 app = Flask(__name__)
 app.config.from_object(config)
 
@@ -128,6 +128,27 @@ def life():
         return render_template('life.html',days=days,birthday=input_birthday)
     else:
         return render_template('life.html')
+
+@app.route('/money',methods=['GET','POST'])
+def save_money():
+    if request.method == 'POST':
+        input_weeks = int(request.form.get('weeks')) #一共多少周
+        basic_money = int(request.form.get('money_per_week')) #每周的存款数
+        money_increase = request.form.get('increase_money')#每周递增的钱数
+        money_list_sum = [] # 每周存款数的总数
+        money_list=[]
+        for i in range(input_weeks):
+            money_list.append(basic_money)
+            saving = math.fsum(money_list)
+            money_list_sum.append(saving)
+            basic_money += int(money_increase)
+        money_list_sum.append(saving)
+        return render_template('money.html', basic_money=money_list[0], increase_money=money_increase,money=money_list_sum[-1],week=input_weeks)
+    else:
+        return render_template('money.html')
+
+
+
 
 
 if __name__ == '__main__':

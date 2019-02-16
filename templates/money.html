@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+
+{% block main %}
+    <form action="" method="POST">
+    <div class="container">
+        <div class="left_div">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                <h1 class="panel-title" >存钱计划</h1>
+            </div>
+              <div class="panel-body">
+{#                <script>#}
+{#                window.onload = function () {#}
+{#                    var inp = document.getElementById("inp")#}
+{#                    inp.onclick = function () {#}
+{#                      var inpText = inp.value;#}
+{#                      if(inp.value < 0){#}
+{#                        alert("请输入正数");#}
+{#                        return false;#}
+{#                      }#}
+{#                    }#}
+{#                  }#}
+{#                </script>#}
+                <div class="ibox-title" style="border-color:#f4645f;padding-left:0">
+{#                    <h2>#}
+{#                        <i class="fa fa-list"></i>&nbsp;实体+事件&nbsp;&nbsp;&nbsp;#}
+{#                    </h2>#}
+                </div>
+                <table class="table" style="margin-bottom:0;">
+                    <tbody>
+                        <tr>
+                            <th style="text-align:right;width:20%;vertical-align: middle;">请输入需要计算的日期</th>
+                            <td >
+
+                               <div class="input-group">
+                                    <input type="input" name="weeks" id="inp" placeholder="1年=52周">
+                                </div>
+
+                            </td>
+                        </tr>
+
+                    <tr>
+                            <th style="text-align:right;width:20%;vertical-align: middle;">请输入起始存款数</th>
+                            <td >
+
+                               <div class="input-group">
+                                    <input type="input" name="money_per_week" id="inp" placeholder="初始存款">
+                                </div>
+
+                            </td>
+                        </tr>
+
+                    <tr>
+                            <th style="text-align:right;width:20%;vertical-align: middle;">请输入每周递增存款金额</th>
+                            <td >
+
+                               <div class="input-group">
+                                    <input type="input" name="increase_money" id="inp" placeholder="每周递增的钱数">
+                                </div>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="text-align:right;width:20%;vertical-align: middle;">
+                            </th>
+                            <td style="text-align:left">
+                                <button class="btn btn-danger btn-lg" id="submit_btn">开始计算</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="clearfix"></div>
+                <h3>计算结果：初始金额为{{ basic_money }}元，递增金额为{{ increase_money}}，持续{{ week }}周后的存款总额是{{ money }}元</h3>
+				<div class="hr-line-dashed"></div>
+                  <div class="ibox-title" style="border-color:#f4645f;padding-left:0"></div>>
+                <div class="hr-line-dashed"></div>
+                    <h3 class="text" style="color: #cd5e3c;">数据用途说明</h3>
+                <p>所有数据仅做娱乐之用，请勿用于非法用途！</p>
+              </div>
+            </div>
+        </div>
+    </div>
+    </form>
+{% endblock %}
+

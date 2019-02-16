@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="264d77f7-dcd3-4ec7-8e48-04379b9f5c56" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/which_day.iml" afterPath="$PROJECT_DIR$/.idea/which_day.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/money.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/存钱计划.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/day.py" afterPath="$PROJECT_DIR$/day.py" />
       <change beforePath="$PROJECT_DIR$/days.py" afterPath="$PROJECT_DIR$/days.py" />
-      <change beforePath="$PROJECT_DIR$/templates/date.html" afterPath="$PROJECT_DIR$/templates/date.html" />
-      <change beforePath="$PROJECT_DIR$/templates/life.html" afterPath="$PROJECT_DIR$/templates/life.html" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,16 +21,16 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/which_day$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1546003467705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/which_day$days.coverage" NAME="days Coverage Results" MODIFIED="1549889171665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/which_day$day.coverage" NAME="day Coverage Results" MODIFIED="1546173330867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/which_day$days.coverage" NAME="days Coverage Results" MODIFIED="1550308029050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/which_day$day.coverage" NAME="day Coverage Results" MODIFIED="1550308545152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="life.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="life.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/life.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="62" column="14" lean-forward="true" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+            <state relative-caret-position="1364">
+              <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -40,9 +39,23 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="31" column="80" lean-forward="false" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
+            <state relative-caret-position="419">
+              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="141" column="38" lean-forward="true" selection-start-line="141" selection-start-column="38" selection-end-line="141" selection-end-column="38" />
+              <folding>
+                <element signature="e#71#100#0" expanded="true" />
+                <element signature="e#122#147#0" expanded="false" />
+                <element signature="e#1860#3901#1" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,9 +63,21 @@
       <file leaf-file-name="date.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/date.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+            <state relative-caret-position="-441">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="money_challenge_v5.0.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/百度云盘下载/零基础Python入门--课件代码下载/lect05_52周存钱挑战/代码/money_challenge_v5.0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-67">
+              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="e#184#195#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,15 +85,41 @@
       <file leaf-file-name="days.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/days.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="127" column="76" lean-forward="false" selection-start-line="127" selection-start-column="76" selection-end-line="127" selection-end-column="76" />
+            <state relative-caret-position="478">
+              <caret line="145" column="123" lean-forward="false" selection-start-line="145" selection-start-column="123" selection-end-line="145" selection-end-column="123" />
               <folding>
                 <element signature="e#0#72#0" expanded="true" />
-                <element signature="e#485#490#0" expanded="false" />
-                <element signature="e#1306#1624#0" expanded="false" />
-                <element signature="e#2505#2547#0" expanded="false" />
-                <element signature="e#2575#2959#0" expanded="false" />
+                <element signature="e#490#495#0" expanded="false" />
+                <element signature="e#1311#1629#0" expanded="false" />
+                <element signature="e#2090#4685#0" expanded="false" />
+                <element signature="e#2510#2552#0" expanded="false" />
+                <element signature="e#2580#2964#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="money.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/money.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="money_challenge_v1.0.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/百度云盘下载/零基础Python入门--课件代码下载/lect05_52周存钱挑战/代码/money_challenge_v1.0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,11 +146,12 @@
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/templates/date1.html" />
         <option value="$PROJECT_DIR$/static/date.css" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/day.py" />
         <option value="$PROJECT_DIR$/templates/date.html" />
-        <option value="$PROJECT_DIR$/days.py" />
         <option value="$PROJECT_DIR$/templates/life.html" />
+        <option value="$PROJECT_DIR$/day.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/days.py" />
+        <option value="$PROJECT_DIR$/templates/money.html" />
       </list>
     </option>
   </component>
@@ -109,7 +161,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="382" />
     <option name="y" value="-14" />
     <option name="width" value="1068" />
@@ -130,6 +182,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,12 +191,15 @@
               <item name="which_day" type="b2602c69:ProjectViewProjectNode" />
               <item name="ala_flask" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="which_day" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ala_flask" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.days">
+  <component name="RunManager" selected="Python.day">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -387,8 +444,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.days" />
-        <item index="1" class="java.lang.String" itemvalue="Python.day" />
+        <item index="0" class="java.lang.String" itemvalue="Python.day" />
+        <item index="1" class="java.lang.String" itemvalue="Python.days" />
       </list>
     </recent_temporary>
   </component>
@@ -409,16 +466,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28396437" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65367484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22269808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22537473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -447,12 +504,68 @@
           <url>file://$PROJECT_DIR$/day.py</url>
           <line>14</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/百度云盘下载/零基础Python入门--课件代码下载/lect05_52周存钱挑战/代码/money_challenge_v5.0.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/life.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="80" lean-forward="false" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/days.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="127" column="76" lean-forward="false" selection-start-line="127" selection-start-column="76" selection-end-line="127" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+            <element signature="e#490#495#0" expanded="false" />
+            <element signature="e#1311#1629#0" expanded="false" />
+            <element signature="e#2090#4685#0" expanded="false" />
+            <element signature="e#2510#2552#0" expanded="false" />
+            <element signature="e#2580#2964#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding>
+            <element signature="e#71#100#0" expanded="true" />
+            <element signature="e#122#147#0" expanded="false" />
+            <element signature="e#1860#3901#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/life.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
@@ -483,10 +596,11 @@
           <caret line="60" column="43" lean-forward="false" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
           <folding>
             <element signature="e#0#72#0" expanded="true" />
-            <element signature="e#485#490#0" expanded="false" />
-            <element signature="e#1306#1624#0" expanded="false" />
-            <element signature="e#2505#2547#0" expanded="false" />
-            <element signature="e#2575#2959#0" expanded="false" />
+            <element signature="e#490#495#0" expanded="false" />
+            <element signature="e#1311#1629#0" expanded="false" />
+            <element signature="e#2090#4685#0" expanded="false" />
+            <element signature="e#2510#2552#0" expanded="false" />
+            <element signature="e#2580#2964#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -496,8 +610,9 @@
         <state relative-caret-position="1650">
           <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding>
-            <element signature="e#71#100#0" expanded="false" />
+            <element signature="e#71#100#0" expanded="true" />
             <element signature="e#122#147#0" expanded="false" />
+            <element signature="e#1860#3901#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -531,8 +646,9 @@
         <state relative-caret-position="242">
           <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding>
-            <element signature="e#71#100#0" expanded="false" />
+            <element signature="e#71#100#0" expanded="true" />
             <element signature="e#122#147#0" expanded="false" />
+            <element signature="e#1860#3901#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -543,10 +659,11 @@
           <caret line="60" column="43" lean-forward="true" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
           <folding>
             <element signature="e#0#72#0" expanded="true" />
-            <element signature="e#485#490#0" expanded="false" />
-            <element signature="e#1306#1624#0" expanded="false" />
-            <element signature="e#2505#2547#0" expanded="false" />
-            <element signature="e#2575#2959#0" expanded="false" />
+            <element signature="e#490#495#0" expanded="false" />
+            <element signature="e#1311#1629#0" expanded="false" />
+            <element signature="e#2090#4685#0" expanded="false" />
+            <element signature="e#2510#2552#0" expanded="false" />
+            <element signature="e#2580#2964#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,8 +689,9 @@
         <state relative-caret-position="902">
           <caret line="110" column="8" lean-forward="true" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="65" />
           <folding>
-            <element signature="e#71#100#0" expanded="false" />
+            <element signature="e#71#100#0" expanded="true" />
             <element signature="e#122#147#0" expanded="false" />
+            <element signature="e#1860#3901#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -592,10 +710,11 @@
           <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <element signature="e#0#72#0" expanded="true" />
-            <element signature="e#485#490#0" expanded="false" />
-            <element signature="e#1306#1624#0" expanded="false" />
-            <element signature="e#2505#2547#0" expanded="false" />
-            <element signature="e#2575#2959#0" expanded="false" />
+            <element signature="e#490#495#0" expanded="false" />
+            <element signature="e#1311#1629#0" expanded="false" />
+            <element signature="e#2090#4685#0" expanded="false" />
+            <element signature="e#2510#2552#0" expanded="false" />
+            <element signature="e#2580#2964#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -605,8 +724,9 @@
         <state relative-caret-position="506">
           <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding>
-            <element signature="e#71#100#0" expanded="false" />
+            <element signature="e#71#100#0" expanded="true" />
             <element signature="e#122#147#0" expanded="false" />
+            <element signature="e#1860#3901#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -662,52 +782,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/datetime.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding>
-            <element signature="e#71#100#0" expanded="false" />
-            <element signature="e#122#147#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/date.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        <state relative-caret-position="3409">
+          <caret line="221" column="8" lean-forward="false" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/days.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-836723051/math.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="127" column="76" lean-forward="false" selection-start-line="127" selection-start-column="76" selection-end-line="127" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#72#0" expanded="true" />
-            <element signature="e#485#490#0" expanded="false" />
-            <element signature="e#1306#1624#0" expanded="false" />
-            <element signature="e#2505#2547#0" expanded="false" />
-            <element signature="e#2575#2959#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="80" lean-forward="false" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
+        <state relative-caret-position="205">
+          <caret line="141" column="4" lean-forward="false" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/life.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="62" column="14" lean-forward="true" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+        <state relative-caret-position="1364">
+          <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/百度云盘下载/零基础Python入门--课件代码下载/lect05_52周存钱挑战/代码/money_challenge_v5.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#184#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/百度云盘下载/零基础Python入门--课件代码下载/lect05_52周存钱挑战/代码/money_challenge_v1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="141" column="38" lean-forward="true" selection-start-line="141" selection-start-column="38" selection-end-line="141" selection-end-column="38" />
+          <folding>
+            <element signature="e#71#100#0" expanded="true" />
+            <element signature="e#122#147#0" expanded="false" />
+            <element signature="e#1860#3901#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/days.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="145" column="123" lean-forward="false" selection-start-line="145" selection-start-column="123" selection-end-line="145" selection-end-column="123" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+            <element signature="e#490#495#0" expanded="false" />
+            <element signature="e#1311#1629#0" expanded="false" />
+            <element signature="e#2090#4685#0" expanded="false" />
+            <element signature="e#2510#2552#0" expanded="false" />
+            <element signature="e#2580#2964#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/money.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
